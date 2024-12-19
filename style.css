@@ -1,0 +1,44 @@
+body {
+  margin: 0; /* Remove body margin */
+  padding: 0;  /* Remove body padding */
+  background-color: transparent; /* Make body transparent */
+}
+
+#calendar-widget {
+  font-family: sans-serif;
+  color: #f0f0f0; /* Light grey for text */
+  background-color: #1e1e1e; /* Dark background */
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  display: inline-block;
+  margin: 20px auto; /* Center horizontally and add some space around */
+}
+
+#year, #month {
+  margin-bottom: 5px;
+  font-size: 1.2em;
+}
+
+#days {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center horizontally */
+}
+
+.day {
+  padding: 4px 6px;
+  margin: 2px;
+  border-radius: 3px;
+  cursor: default;
+}
+
+.current-day {
+  background-color: #b95555; /* Dark pastel red */
+  color: #fff;
+}
+
+.week-separator {
+  color: #666; /* Lighter marker color */
+  margin: 0 3px;
+}
